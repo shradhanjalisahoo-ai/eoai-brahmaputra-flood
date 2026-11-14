@@ -1,0 +1,15 @@
+streamlit==1.67.0
+rasterio==1.5.2
+rioxarray==0.24.0
+xarray==2026.9.0
+odc-stac>=0.3.10
+pystac-client>=0.8.3
+planetary-computer>=1.0.0
+geopandas>=1.0.1
+pyarrow>=17.0.0
+matplotlib>=3.9.2
+numpy>=2.0.0
+scipy==1.18.1
+folium>=0.17.0
+streamlit-folium>=0.22.0
+plotly>=5.24.0
