@@ -3,8 +3,15 @@
 **Configuration:** R5-S1-D2-T1 (Brahmaputra Floodplain, Assam | Sentinel-2 L2A + Copernicus DEM | Surface Water | Two-Date Change Detection)
 
 ## Live Deployment Links
-- **Interactive Decision Dashboard (Lovable React + Leaflet):** [https://screenshot-soul-canvas-30.lovable.app/](https://screenshot-soul-canvas-30.lovable.app/)
-- **Geospatial Scientific API (Render FastAPI):** [https://eoai-brahmaputra-flood.onrender.com/docs](https://eoai-brahmaputra-flood.onrender.com/docs)
+
+* **Interactive Decision Dashboard (Lovable React + Leaflet):** https://brahmaputra-flood-eoai.lovable.app/
+* **Geospatial Scientific API (Render FastAPI):** https://eoai-brahmaputra-flood.onrender.com/docs
+
+## Quickstart (Run Locally)
+
+1. `git clone https://github.com/shradhanjalisahoo-ai/eoai-brahmaputra-flood.git && cd eoai-brahmaputra-flood`
+2. `pip install -r requirements.txt`
+3. `uvicorn api:app --host 0.0.0.0 --port 8000`
 
 ## Operational Use-Case
 A state disaster-response desk (Assam State Disaster Management Authority) requires a rapid surface-water extent snapshot across the Brahmaputra floodplain (Morigaon district, Tile T46RDQ) immediately following heavy monsoon rains to isolate newly inundated land from permanent river channels and prioritize which revenue circles to reach first.
